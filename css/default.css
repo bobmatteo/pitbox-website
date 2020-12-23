@@ -9,11 +9,39 @@ html {
   }
 }
 
+body {
+  /* background-color: #242c43; */
+  color: #1c1c1e;
+}
+
 .container {
   max-width: 900px;
   margin: 80px auto 0 auto;
 }
 
+.h-container {
+  max-width: 900px;
+  margin-top: 40px;
+  padding-bottom: 16px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
 h1 {
-  font-size: 64px;
+  font-size: 40px;
+}
+
+.app {
+  width: 260px;
+  height: auto;
+  margin-right: 24px;
+}
+
+.app:last-child {
+  margin-right: 0px;
 }

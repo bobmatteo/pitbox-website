@@ -1,19 +1,132 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Pitbox App</title>
-    <!-- styles -->
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <!-- scripts -->
-    <script type="text/javascript" src="js/default.js"></script>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="uisual" content="Made with Uisual (uisual.com)"> <!-- ATTRIBUTION REQUIRED -->
+    <meta name="author" content="#">
+    <meta name="description" content="#">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <!-- LINK -->
+    <link rel="me" href="#">
+    <link rel="canonical" href="#">
+    <link rel="icon" type="image/png" href="#" sizes="48x48">
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- TITLE -->
+    <title>Pitbox App: The native iOS app for Formula 1 data</title>
   </head>
   <body>
-    <div class="container">
-      <img class="logo" src="images/logo.png" alt="Logo">
-      <h1>Pitbox App</h1>
-      <p>The native iOS app for Formula 1 data</p>
-      <img class="scene" src="images/scene.png" alt="Scene">
-    </div>
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <!-- LOGO -->
+          <a href="#" role="link" aria-label="#">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#1C1C1E" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M13.7726 2.58288C14.8061 3.14127 15.7155 3.95115 16.4261 4.95811C17.4468 6.40455 18 8.17681 18 10C18 11.8232 17.4468 13.5955 16.4261 15.0419C15.7155 16.0489 14.8061 16.8587 13.7726 17.4171C13.3216 17.6608 12.8469 17.8566 12.3548 18L12 16.56C12.0008 16.5598 12.0017 16.5595 12.0025 16.5593C13.3295 16.172 14.502 15.3197 15.3384 14.1344C16.1754 12.9483 16.629 11.495 16.629 10C16.629 8.50498 16.1754 7.05173 15.3384 5.86565C14.5015 4.67957 13.328 3.82694 12 3.44L12.3548 2C12.8469 2.14337 13.3216 2.33918 13.7726 2.58288Z"
+                fill="#FFBE44" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 16.56L7.64517 18C7.1531 17.8566 6.67843 17.6608 6.22738 17.4171C5.19392 16.8587 4.28447 16.0488 3.57391 15.0419C2.55324 13.5954 2 11.8232 2 10C2 8.1768 2.55324 6.40455 3.57392 4.95811C4.28447 3.95115 5.19392 3.14127 6.22739 2.58288C6.67843 2.33917 7.1531 2.14337 7.64517 2L8 3.44C6.672 3.82694 5.49852 4.67957 4.66157 5.86565C3.82462 7.05173 3.37096 8.50498 3.37096 10C3.37096 11.495 3.82462 12.9483 4.66157 14.1343C5.49852 15.3204 6.672 16.1731 8 16.56Z"
+                fill="#FFBE44" />
+              <path
+                d="M13 8.696C13 8.088 12.7788 7.656 12.3451 7.392C11.9027 7.136 11.2301 7 10.3186 7H7V13H8.76991V11H10.3186C11.2301 11 11.9027 10.88 12.3451 10.632C12.7788 10.392 13 9.944 13 9.288V8.696ZM11.2301 9.24C11.2301 9.424 11.1593 9.568 11.0354 9.672C10.9115 9.776 10.6903 9.824 10.3717 9.824H8.76991V8.176H10.3717C10.6903 8.176 10.9115 8.232 11.0354 8.336C11.1593 8.44 11.2301 8.584 11.2301 8.768V9.24Z"
+                fill="white" />
+            </svg>
+          </a>
+          <!-- MENU -->
+          <a href="https://twitter.com/pitboxapp" role="link" aria-label="#">
+            <svg viewBox="0 0 24 24" height="18" width="18" fill="none" stroke="#353535" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" aria-label="#">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+          <div class="ui-layout-column-6 ui-layout-column-center">
+            <!-- LOGO -->
+            <a href="#" role="link" aria-label="#" class="ui-section-hero--logo">
+              <svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="81" cy="81" r="81" fill="#1C1C1E" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M110.067 22.5902C118.852 26.9875 126.582 33.3653 132.622 41.2951C141.297 52.6859 146 66.6423 146 81C146 95.3577 141.297 109.314 132.622 120.705C126.582 128.635 118.852 135.012 110.067 139.41C106.233 141.329 102.199 142.871 98.0161 144L95 132.66C95.0072 132.658 95.0144 132.656 95.0216 132.654C106.301 129.604 116.267 122.892 123.377 113.558C130.491 104.218 134.347 92.7733 134.347 81C134.347 69.2267 130.491 57.7824 123.377 48.442C116.263 39.1016 106.288 32.3872 95.0001 29.34L98.0161 18C102.199 19.1291 106.233 20.671 110.067 22.5902Z"
+                  fill="#FFBE44" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M67 132.66L63.9839 144C59.8013 142.871 55.7667 141.329 51.9328 139.41C43.1483 135.012 35.418 128.635 29.3783 120.705C20.7025 109.314 16 95.3577 16 81C16 66.6423 20.7025 52.6858 29.3783 41.2951C35.418 33.3653 43.1484 26.9875 51.9328 22.5902C55.7667 20.671 59.8014 19.1291 63.9839 18L67 29.34C55.712 32.3872 45.7375 39.1016 38.6234 48.442C31.5093 57.7824 27.6532 69.2267 27.6532 81C27.6532 92.7733 31.5092 104.218 38.6233 113.558C45.7374 122.898 55.712 129.613 67 132.66Z"
+                  fill="#FFBE44" />
+                <path
+                  d="M108 69.264C108 63.792 106.23 59.904 102.761 57.528C99.2212 55.224 93.8407 54 86.5487 54H60V108H74.1593V90H86.5487C93.8407 90 99.2212 88.92 102.761 86.688C106.23 84.528 108 80.496 108 74.592V69.264ZM93.8407 74.16C93.8407 75.816 93.2743 77.112 92.2832 78.048C91.292 78.984 89.5221 79.416 86.9734 79.416H74.1593V64.584H86.9734C89.5221 64.584 91.292 65.088 92.2832 66.024C93.2743 66.96 93.8407 68.256 93.8407 69.912V74.16Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <!-- COPYWRITING -->
+            <div class="ui-section-hero--content">
+              <h1>Pitbox</h1>
+              <p class="ui-text-intro">The native iOS app for Formula 1 data.</p>
+              <!-- CTA -->
+              <!-- <div class="ui-component-cta ui-layout-flex">
+                <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4">
+                  <input type="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
+                  <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Waitlist</button>
+                </form>
+                <p class="ui-text-note"><small>Available on iOS.</small></p>
+              </div> -->
+            </div>
+            <!-- IMAGE -->
+            <img src="images/mockups.png" loading="lazy" alt="#">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <!-- COPYRIGHT -->
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; Bob Muller</small></p>
+          <!-- MENU -->
+          <a href="https://github.com/bobmatteo" role="link" aria-label="#" class="ui-text-note">
+            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" role="img" aria-label="GitHub Icon">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22">
+              </path>
+            </svg>
+          </a>
+          <a href="https://www.figma.com/@bobmuller" role="link" aria-label="#" class="ui-text-note">
+            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" role="img" aria-label="Figma Icon">
+              <path d="M5 5.5A3.5 3.5 0 018.5 2H12v7H8.5A3.5 3.5 0 015 5.5zM12 2h3.5a3.5 3.5 0 110 7H12V2z"></path>
+              <path
+                d="M12 12.5a3.5 3.5 0 117 0 3.5 3.5 0 11-7 0zM5 19.5A3.5 3.5 0 018.5 16H12v3.5a3.5 3.5 0 11-7 0zM5 12.5A3.5 3.5 0 018.5 9H12v7H8.5A3.5 3.5 0 015 12.5z">
+              </path>
+            </svg>
+          </a>
+          <a href="https://dribbble.com/bobmuller" role="link" aria-label="#" class="ui-text-note">
+            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" role="img" aria-label="Dribbble Icon">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path
+                d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
